@@ -1,0 +1,24 @@
+<svg width="16" height="16" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#0B63A8"/>
+  <g transform="translate(250,250)" fill="#FFFFFF">
+    <path d="M0 -140
+             C40 -100, 80 -40, 80 30
+             C80 120, 30 160, 0 160
+             C-30 160, -80 120, -80 30
+             C-80 -40, -40 -100, 0 -140 Z" />
+    <circle cx="0" cy="-10" r="30" fill="#0B63A8"/>
+    <circle cx="0" cy="-10" r="12" fill="#FFFFFF"/>
+    <path d="M-80 30
+             C-120 10, -125 80, -60 90
+             C-45 85, -40 60, -80 30 Z" />
+    <path d="M80 30
+             C120 10, 125 80, 60 90
+             C45 85, 40 60, 80 30 Z" />
+    <rect x="-28" y="160" rx="8" ry="8" width="56" height="18" />
+    <g transform="translate(0,190)">
+      <rect x="-6" y="0" width="12" height="70" rx="6" ry="6"/>
+      <rect x="-28" y="8" width="12" height="58" rx="6" ry="6"/>
+      <rect x="16" y="8" width="12" height="58" rx="6" ry="6"/>
+    </g>
+  </g>
+</svg>
