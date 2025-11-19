@@ -6,22 +6,22 @@ import LandingPage from './pages/LandingPage'
 
 // Páginas que AINDA FALTAM (vamos criar aos poucos!)
 import AuthPage from './pages/AuthPage'
-// import Feed from './pages/Feed'
-// import Profile from './pages/Profile'
-// import Settings from './pages/Settings'
-// import Messages from './pages/Messages'
-// import Search from './pages/Search'
-// import CreateContent from './pages/CreateContent'
-// import AdminPanel from './pages/AdminPanel'
-// import Support from './pages/Support'
-// import { TermsOfService, PrivacyPolicy, CookiePolicy } from './pages/LegalPages'
-// import Error404 from './pages/Error404'
+import Feed from '../pages/Feed'
+import Profile from '../pages/Profile'
+import Settings from '../pages/Settings'
+import Messages from '../pages/Messages'
+import Search from '../pages/Search'
+import CreateContent from '../pages/CreateContent'
+import AdminPanel from '../pages/AdminPanel'
+import Support from '../pages/Support'
+import { TermsOfService, PrivacyPolicy, CookiePolicy } from '../pages/LegalPages'
+import Error404 from '../pages/Error404'
 
 // Componentes
-// import Layout from './components/Layout'
-// import ProtectedRoute from './components/ProtectedRoute'
-// import AdminRoute from './components/AdminRoute'
-// import { AuthProvider } from './contexts/AuthContext'
+import Layout from '../components/Layout'
+import ProtectedRoute from '../components/ProtectedRoute'
+import AdminRoute from '../components/AdminRoute'
+import { AuthProvider } from '../contexts/AuthContext'
 
 export default function App() {
   return (
