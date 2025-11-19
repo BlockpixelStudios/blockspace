@@ -2,26 +2,26 @@ import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 // Páginas que JÁ TEMOS
-import LandingPage from './pages/LandingPage'
+import LandingPage from './pages/LandingPage.jsx'
 
 // Páginas que AINDA FALTAM (vamos criar aos poucos!)
-import AuthPage from './pages/AuthPage'
-import Feed from '../pages/Feed'
-import Profile from '../pages/Profile'
-import Settings from '../pages/Settings'
-import Messages from '../pages/Messages'
-import Search from '../pages/Search'
-import CreateContent from '../pages/CreateContent'
-import AdminPanel from '../pages/AdminPanel'
-import Support from '../pages/Support'
-import { TermsOfService, PrivacyPolicy, CookiePolicy } from '../pages/LegalPages'
-import Error404 from '../pages/Error404'
+import AuthPage from './pages/AuthPage.jsx'
+import Feed from './pages/Feed.jsx'
+import Profile from './pages/Profile.jsx'
+import Settings from './pages/Settings.jsx'
+import Messages from './pages/Messages.jsx'
+import Search from './pages/Search.jsx'
+import CreateContent from './pages/CreateContent.jsx'
+import AdminPanel from './pages/AdminPanel.jsx'
+import Support from './pages/Support.jsx'
+import { TermsOfService, PrivacyPolicy, CookiePolicy } from './pages/LegalPages.jsx'
+import Error404 from './pages/Error404.jsx'
 
 // Componentes
-import Layout from '../components/Layout'
-import ProtectedRoute from '../components/ProtectedRoute'
-import AdminRoute from '../components/AdminRoute'
-import { AuthProvider } from '../contexts/AuthContext'
+import Layout from './components/Layout.jsx'
+import ProtectedRoute from './components/ProtectedRoute.jsx'
+import AdminRoute from './components/AdminRoute.jsx'
+import { AuthProvider } from './contexts/AuthContext.jsx'
 
 export default function App() {
   return (
